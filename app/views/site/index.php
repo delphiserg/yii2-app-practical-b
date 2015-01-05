@@ -49,3 +49,4 @@ $this->title = 'My Yii Application';
 
     </div>
 </div>
+<?php echo Yii::getAlias('@webroot'); ?>

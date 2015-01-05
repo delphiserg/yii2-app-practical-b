@@ -5,11 +5,16 @@ $params = require(__DIR__ . '/params.php');
 $config = [
     'id' => 'base-template',
     'basePath' => dirname(__DIR__),
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'bootstrap' => ['log'],
     'components' => [
+        'assetManager' => [
+            'basePath' => '@webroot/web/assets',
+            'baseUrl' => '@web/web/assets',
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => '970UhpKWaTjo1zEjz85B6Iean49825x4',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',

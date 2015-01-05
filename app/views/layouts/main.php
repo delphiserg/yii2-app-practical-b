@@ -1,11 +1,13 @@
 <?php
-use yii\helpers\Html;
+
+use app\components\assets\AppAsset;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
+use yii\helpers\Html;
+use yii\web\View;
 use yii\widgets\Breadcrumbs;
-use app\assets_b\AppAsset;
 
-/* @var $this \yii\web\View */
+/* @var $this View */
 /* @var $content string */
 
 AppAsset::register($this);
