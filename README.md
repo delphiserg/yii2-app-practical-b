@@ -47,23 +47,6 @@ SOME KEY ADDITIONS
 2. The template has prettyUrl enabled by default and the changes have been made to `.htaccess` as well as `urlManager`
    component config in the config directory.
 
-DIRECTORY STRUCTURE
--------------------
-
-```
-    /                   contains the entry script and web resources
-    assets/             contains the web runtime assets
-    assets_b/           contains application assets such as JavaScript and CSS
-    commands/           contains console commands (controllers)
-    config/             contains application configurations
-    controllers/        contains Web controller classes
-    mail/               contains view files for e-mails
-    models/             contains model classes
-    runtime/            contains files generated during runtime
-    tests/              contains various tests for the yii2-practical-b application
-    vendor/             contains dependent 3rd-party packages
-    views/              contains view files for the Web application
-```
 
 REQUIREMENTS
 ------------

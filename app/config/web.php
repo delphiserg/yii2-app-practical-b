@@ -3,7 +3,7 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'app-practical-b',
+    'id' => 'base-template',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
